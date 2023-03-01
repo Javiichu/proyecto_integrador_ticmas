@@ -1,0 +1,566 @@
+
+/* Estilos generales */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 9px;
+  }
+.contenedor_padre{
+  font-size: 1em;
+}
+
+section{
+  height: 100vh;;
+  padding-top: 3.125rem;
+  }
+
+a{
+  text-decoration: none;
+  }
+
+ul{
+  list-style: none;
+  }
+
+h1{
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e2e2e9;
+  }
+    
+h2{
+  text-align: center;
+  font-size: 3.5rem;
+  color: #e2e2e9;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+section h3{
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: none;
+  }
+
+h1,h2{
+  font-family: 'Roboto';
+  }
+
+h3,h4,p,a{
+  font-family: 'Roboto', sans-serif;
+  }
+
+p,span{
+  font-size: 1.1rem;
+}
+  
+div ul{
+  list-style:none
+  }
+
+
+/* Estilos de ID y class generales */
+
+#informacion, 
+#formacion, 
+#contactos{
+  display: flex;
+  
+  }
+  
+.informacion-personal, 
+.acerca-de, .educacion, 
+.habilidades, 
+.contenedor_form, 
+.contenedor_redes{
+  display: flex; 
+  flex: 1;
+  flex-direction: column;
+  }
+  
+.informacion-personal h3, 
+.acerca-de h3, 
+.educacion h3, 
+.habilidades h3, 
+.form h3, 
+.redes h3{
+  text-align: center;
+  padding-bottom: 1.25rem;
+  text-decoration: underline;
+  
+  }
+  
+.informacion-personal i, 
+.acerca-de i, .educacion i, 
+.habilidades i, 
+.contenedor_redes i, 
+.contenedor_form i{
+  padding-right: .625rem;
+  }
+  
+  
+.educacion h4, 
+.habilidades h4{
+  padding-top: 1.25rem;
+  text-align: center;
+  }
+
+
+/* Header */
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  background-color: #0C1B75;
+  background-image: linear-gradient(#02265bf0, #040c22f0);
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    }
+  
+  nav ul li{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    padding: .625rem 1.25rem;
+    background-color:#326a88 ;
+    border-radius: 10px;
+    color: white;
+    }  
+  nav ul li i{
+    padding-right: .625rem;
+    font-size: 1.5625rem;
+    }
+
+nav ul li:hover{
+  background: darkblue;
+  }
+  
+nav a, nav i{
+  color: #e2e2e9;
+  }
+  
+nav a{
+  font-size: 1.25rem;
+  }
+
+
+/* section  HOME  */
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 33, 116, 0.5), rgba(0, 0, 0, 0.9)), url(img2.jpg) no-repeat fixed;
+  background-size: cover;
+  }
+
+#home button{
+  background-color: #061720;
+  border-radius: 16px;
+  padding: .9375rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  }  
+#home button:hover {
+  background: #6096B4; 
+  }
+
+  #home button:active {
+  background: #0C1B75; 
+  }
+
+#home a{
+  color: #FFFF;
+  }
+    
+.contenedor_home{
+  margin-bottom: 2rem;
+  }
+
+.nombre_home{
+  margin-bottom: 1.25rem;
+  }
+  
+.imagen_perfil{
+  display: flex;
+  justify-content: center;
+  }
+  
+.boton-home{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem;
+  
+  }
+.boton-home button i{
+  width:15px;
+  height:15px;
+  color: azure;
+  padding-right: 1.25rem;
+  }
+  
+/* section INFORMACION */
+
+#informacion{
+  background: linear-gradient(rgba(05, 7, 12, 0.7), rgba(5, 7, 12, 0.75)), url(img3.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #e2e2e9;
+}
+
+#informacion p{
+  line-height: 3.125rem;
+  width:90%;
+  font-size: 1.25rem; 
+  }
+
+.acerca-de h3{
+  padding-right: 15%;
+  }
+
+.informacion-personal p{
+  padding-left: .625rem;
+  padding-top: .625rem;
+  text-align:center;
+  }
+  
+.acerca-de p{
+  padding-right: 15%;
+  text-align: justify;
+  }
+
+.img1{
+  margin-top: .9375rem;
+  border-radius: 50%;
+  width: 31.25rem;
+  height: 25rem;
+  border-style: solid;
+  border-color: #e2e2e9;
+  }
+
+/* section FORMACION */
+
+#formacion{
+  background: linear-gradient(rgba(7, 18, 36, 0.4), rgba(12, 12, 16, 0.9)), url(img1.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #e2e2e9;
+  }
+
+.educacion p{
+  padding-left: .625rem;
+  text-align:center;
+  }
+  
+.titulo{
+  font-style: oblique;
+  font-weight: bold;
+  }
+  
+.contenedor{
+  position: relative;
+  width: 90%;
+  padding: 0em 1.875em 3.125em;
+  background: linear-gradient(#02265bf0, #040c22f0);
+  background-size: contain;
+  border: 2px solid rgba(0,0,0,0.06);
+  border-radius: .625em;
+  box-shadow: 0 1.25em 1.875em rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(.625em);
+  margin-bottom: .625em;
+  margin-left: 3.75em;  
+  border-radius: 10px;
+  }
+  
+.contenedor *{
+  font-family: 'roboto';
+  font-weight: 500;
+  
+  
+  }
+  
+.contenedor h4{
+  margin-bottom: 1.25em;
+  letter-spacing: .125em;
+  text-align: left;
+  font-weight: bold;
+  }
+  
+.detalles{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25em;
+  }
+  
+.menu{
+  width: 90%;
+  position: relative;
+  border: 1px solid #6096B4;
+  border-radius: 1.25rem;
+  }
+  
+.menu div{
+  position: relative;
+  width: 0;
+  height: .5em;
+  border-radius: 10px;
+  background-color: #6096B4;
+  }
+  
+  /* Animacion-barra-programacion */
+  
+#html-menu{
+  animation: html-barra 2s forwards;  
+  }
+  
+  @keyframes html-barra{
+    100%{
+      width: 90%;
+  }
+  }
+  
+#css-menu{
+  animation: css-barra 2s forwards;  
+  }
+  
+  @keyframes css-barra{
+    100%{
+      width: 80%;
+  }
+  }
+  
+#js-menu{
+  animation: js-barra 2s forwards;
+  }
+  
+  @keyframes js-barra{
+    100%{
+      width: 70%;
+  }
+  }
+  
+  
+#py-menu{
+  animation: py-barra 2s forwards;
+  }
+  
+  @keyframes py-barra{
+    100%{
+      width: 50%;
+  }
+  }
+  
+  
+  /* Animacion-barra-diseño */
+  
+#premier-menu{
+  animation: premier-barra 2s forwards;
+  }
+  
+  @keyframes premier-barra{
+    100%{
+      width: 80%;
+  }
+  }
+  
+#after-menu{
+  animation: after-barra 2s forwards;
+  }
+  
+  @keyframes after-barra{
+    100%{
+      width: 40%;
+  }
+  }
+  
+#ilustrator-menu{
+  animation: ilustrator-barra 2s forwards;
+  }
+
+  @keyframes ilustrator-barra{
+    100%{
+      width: 70%;
+  }
+  }
+  
+#cinema-menu{
+  animation: cinema-barra 2s forwards;
+  }
+  
+  @keyframes cinema-barra{
+    100%{
+      width: 30%;
+  }
+  }
+  
+#autocad-menu{
+  animation: autocad-barra 2s forwards;
+  }
+  
+  @keyframes autocad-barra{
+    100%{
+      width: 85%;
+  }
+  }
+  /* Animacion-barra-ofimatica */
+  
+#word-menu{
+  animation: word-barra 2s forwards;
+  
+  }
+  @keyframes word-barra{
+    100%{
+      width: 90%;
+  }
+  }
+#excel-menu{
+  animation: excel-barra 2s forwards;
+  
+  }
+  @keyframes excel-barra{
+    100%{
+      width: 80%;
+  }
+  }
+  
+#powerpoint-menu{
+  animation: powerpoint-barra 2s forwards;
+  }
+  
+  @keyframes powerpoint-barra{
+    100%{
+      width: 65%;
+  }
+  }
+
+/* section CONTACTOS */
+
+#contactos{
+  background: linear-gradient(rgba(7, 18, 36, 0.4), rgba(12, 12, 16, 0.9)), url(img5.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #e2e2e9;
+  }
+
+.contenedor_redes{
+  align-items: center;
+  }
+
+.contenedor_redes ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5%;
+  }
+  
+.contenedor_redes ul li{
+  padding-bottom: 2.5rem;
+  font-weight: 900;
+  font-size: 1.875rem;
+  
+  }
+  
+.contenedor_redes ul a{
+  padding: .3125rem;
+  margin: .0187rem;
+  color: #e2e2e9;
+  text-transform:capitalize;
+  }
+
+.contenedor_form{
+  display: flex;
+  text-align: left;
+  align-content: center;
+  }
+  
+.contenedor_redes {
+  text-align: center;
+  }
+  
+  
+.form_contenido > *{
+  padding: 1rem;
+  }
+  
+.form_contacto{
+  background: #02265bf0;
+  box-shadow: 0 0 1.25rem 0 rgba(255, 255, 255, .3);
+  margin-left: 3.125rem;
+  margin-top: .625rem;
+  width: 90%;
+  border-radius: .625rem;
+  }
+  
+.form_contacto form p{
+  margin: 0;
+  padding: 1em;
+  }
+  
+.form_contacto form button, 
+.form_contacto form input, 
+.form_contacto form textarea{
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid #6096B4;
+  text-shadow: .125rem .125rem .25rem #050505;
+  color: white ;
+  text-decoration-color: white;
+  } 
+  
+.form_contenido form button{
+  background: #6096B4;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  }
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0C1B75;
+  background-image: linear-gradient(#02265bf0, #040c22f0);
+  height:3.125rem;
+  }
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  padding-left: .625rem;
+  padding-right: .625rem;
+}
+
+footer ul li{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+footer ul li i{
+  font-size: 1.5625rem;
+  color: aliceblue;
+  box-shadow: .0125rem .0125rem .1875rem #02265bf0;
+  text-shadow: .125rem .125rem .25rem #000000;
+}
