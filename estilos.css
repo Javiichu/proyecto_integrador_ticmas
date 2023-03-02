@@ -116,6 +116,7 @@ div ul{
 
 nav{
   display: flex;
+  z-index: 1;
   width: 100%;
   justify-content: space-around;
   align-items: center;
