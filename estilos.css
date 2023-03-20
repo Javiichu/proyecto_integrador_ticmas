@@ -171,7 +171,7 @@ nav a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 33, 116, 0.5), rgba(0, 0, 0, 0.9)), url(/4_IMAGENES/img2.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(0, 33, 116, 0.5), rgba(0, 0, 0, 0.9)), url(img2.jpg) no-repeat fixed;
   background-size: cover;
   }
 
@@ -226,7 +226,7 @@ nav a{
 /* section INFORMACION */
 
 #informacion{
-  background: linear-gradient(rgba(05, 7, 12, 0.7), rgba(5, 7, 12, 0.75)), url(/4_IMAGENES/img3.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(05, 7, 12, 0.7), rgba(5, 7, 12, 0.75)), url(img3.jpg) no-repeat fixed;
   background-size: cover;
   color: #e2e2e9;
 }
@@ -264,7 +264,7 @@ nav a{
 /* section FORMACION */
 
 #formacion{
-  background: linear-gradient(rgba(7, 18, 36, 0.4), rgba(12, 12, 16, 0.9)), url(/4_IMAGENES/img1.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(7, 18, 36, 0.4), rgba(12, 12, 16, 0.9)), url(img1.jpg) no-repeat fixed;
   background-size: cover;
   color: #e2e2e9;
   }
@@ -458,7 +458,7 @@ nav a{
 /* section CONTACTOS */
 
 #contactos{
-  background: linear-gradient(rgba(7, 18, 36, 0.4), rgba(12, 12, 16, 0.9)), url(/4_IMAGENES/img5.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(7, 18, 36, 0.4), rgba(12, 12, 16, 0.9)), url(img5.jpg) no-repeat fixed;
   background-size: cover;
   color: #e2e2e9;
   }
