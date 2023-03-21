@@ -1,4 +1,3 @@
-
 /* Estilos generales */
 *{
   box-sizing: border-box;
@@ -6,15 +5,15 @@
   padding: 0;
 }
 body{
-  font-size: 9px;
+  font-size: .5625rem;
   }
 .contenedor_padre{
   font-size: 1em;
 }
 
 section{
-  height: 100vh;
-  padding-top: 3.125rem;
+  height: 100vh;;
+  padding-top: 50px;
   }
 
 a{
@@ -26,7 +25,7 @@ ul{
   }
 
 h1{
-  font-size: 4.5rem;
+  font-size: 72px;
   text-transform: uppercase;
   text-align: center;
   color: #e2e2e9;
@@ -34,17 +33,17 @@ h1{
     
 h2{
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 56px;
   color: #e2e2e9;
   }
 
   h4{
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 
 section h3{
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 36.8px;
   padding-bottom: none;
   }
 
@@ -57,7 +56,7 @@ h3,h4,p,a{
   }
 
 p,span{
-  font-size: 1.1rem;
+  font-size: 17.6px;
 }
   
 div ul{
@@ -91,7 +90,7 @@ div ul{
 .form h3, 
 .redes h3{
   text-align: center;
-  padding-bottom: 1.25rem;
+  padding-bottom: 20px;
   text-decoration: underline;
   
   }
@@ -101,13 +100,13 @@ div ul{
 .habilidades i, 
 .contenedor_redes i, 
 .contenedor_form i{
-  padding-right: .625rem;
+  padding-right: 10px;
   }
   
   
 .educacion h4, 
 .habilidades h4{
-  padding-top: 1.25rem;
+  padding-top: 20px;
   text-align: center;
   }
 
@@ -123,8 +122,8 @@ nav{
   position: fixed;
   top: 0;
   transition: top 0.5s;
-  padding-top: 1.875rem;
-  padding-bottom: 1.5625rem;
+  padding-top: 30px;
+  padding-bottom: 25px;
   background-color: #0C1B75;
   background-image: linear-gradient(#02265bf0, #040c22f0);
   flex-direction: row;
@@ -137,18 +136,18 @@ nav ul{
   }
 
 nav ul li{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-  padding: .625rem 1.25rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
   background-color:#326a88 ;
-  border-radius: 10px;
+  border-radius: .625rem;
   color: white;
   display: flex;
   flex-direction: row;
   }  
 nav ul li i{
-  padding-right: .625rem;
-  font-size: 1.5625rem;
+  padding-right: 10px;
+  font-size: 25px;
   }
 
 nav ul li:hover{
@@ -160,7 +159,7 @@ nav a, nav i{
   }
   
 nav a{
-  font-size: 1.25rem;
+  font-size: 20px;
   }
 
 
@@ -177,12 +176,12 @@ nav a{
 
 #home button{
   background-color: #061720;
-  border-radius: 16px;
-  padding: .9375rem 2rem;
+  border-radius: 1rem;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 16px;
   text-transform: uppercase;
   }  
 #home button:hover {
@@ -198,11 +197,11 @@ nav a{
   }
     
 .contenedor_home{
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
   }
 
 .nombre_home{
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
   }
   
 .imagen_perfil{
@@ -213,14 +212,14 @@ nav a{
 .boton-home{
   display: flex;
   justify-content: center;
-  margin-top: 1.875rem;
+  margin-top: 30px;
   
   }
 .boton-home button i{
-  width:15px;
-  height:15px;
+  width:.9375rem;
+  height:.9375rem;
   color: azure;
-  padding-right: 1.25rem;
+  padding-right: 20px;
   }
   
 /* section INFORMACION */
@@ -232,9 +231,9 @@ nav a{
 }
 
 #informacion p{
-  line-height: 3.125rem;
+  line-height: 50px;
   width:90%;
-  font-size: 1.25rem; 
+  font-size: 20px; 
   }
 
 .acerca-de h3{
@@ -242,8 +241,8 @@ nav a{
   }
 
 .informacion-personal p{
-  padding-left: .625rem;
-  padding-top: .625rem;
+  padding-left: 10px;
+  padding-top: 10px;
   text-align:center;
   }
   
@@ -253,10 +252,7 @@ nav a{
   }
 
 .img1{
-  margin-top: .9375rem;
   border-radius: 50%;
-  width: 31.25rem;
-  height: 25rem;
   border-style: solid;
   border-color: #e2e2e9;
   }
@@ -270,7 +266,7 @@ nav a{
   }
 
 .educacion p{
-  padding-left: .625rem;
+  padding-left: 10px;
   text-align:center;
   }
   
@@ -284,13 +280,13 @@ nav a{
   padding: 0em 1.875em 3.125em;
   background: linear-gradient(#02265bf0, #040c22f0);
   background-size: contain;
-  border: 2px solid rgba(0,0,0,0.06);
+  border: .125rem solid rgba(0,0,0,0.06);
   border-radius: .625em;
   box-shadow: 0 1.25em 1.875em rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(.625em);
   margin-bottom: .625em;
   margin-left: 3.75em;  
-  border-radius: 10px;
+  border-radius: .625rem;
   }
   
 .contenedor *{
@@ -317,15 +313,15 @@ nav a{
 .menu{
   width: 90%;
   position: relative;
-  border: 1px solid #6096B4;
-  border-radius: 1.25rem;
+  border: .0625rem solid #6096B4;
+  border-radius: 20px;
   }
   
 .menu div{
   position: relative;
   width: 0;
   height: .5em;
-  border-radius: 10px;
+  border-radius: .625rem;
   background-color: #6096B4;
   }
   
@@ -475,15 +471,15 @@ nav a{
   }
   
 .contenedor_redes ul li{
-  padding-bottom: 2.5rem;
+  padding-bottom: 40px;
   font-weight: 900;
-  font-size: 1.875rem;
+  font-size: 30px;
   
   }
   
 .contenedor_redes ul a{
-  padding: .3125rem;
-  margin: .0187rem;
+  padding: 5px;
+  margin: .2992px;
   color: #e2e2e9;
   text-transform:capitalize;
   }
@@ -500,16 +496,16 @@ nav a{
   
   
 .form_contenido > *{
-  padding: 1rem;
+  padding: 16px;
   }
   
 .form_contacto{
   background: #02265bf0;
-  box-shadow: 0 0 1.25rem 0 rgba(255, 255, 255, .3);
-  margin-left: 3.125rem;
-  margin-top: .625rem;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  margin-left: 50px;
+  margin-top: 10px;
   width: 90%;
-  border-radius: .625rem;
+  border-radius: 10px;
   }
   
 .form_contacto form p{
@@ -525,8 +521,8 @@ nav a{
   border: none;
   background: none;
   outline: none;
-  border-bottom: 1px solid #6096B4;
-  text-shadow: .125rem .125rem .25rem #050505;
+  border-bottom: .0625rem solid #6096B4;
+  text-shadow: 2px 2px 4px #050505;
   color: white ;
   text-decoration-color: white;
   } 
@@ -546,36 +542,45 @@ footer{
   justify-content: center;
   background-color: #0C1B75;
   background-image: linear-gradient(#02265bf0, #040c22f0);
-  height:3.125rem;
+  height:50px;
   }
 
 footer ul{
   display: flex;
   justify-content: center;
-  padding-left: .625rem;
-  padding-right: .625rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 footer ul li{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 footer ul li i{
-  font-size: 1.5625rem;
+  font-size: 25px;
   color: aliceblue;
-  box-shadow: .0125rem .0125rem .1875rem #02265bf0;
-  text-shadow: .125rem .125rem .25rem #000000;
+  box-shadow: .2px .2px 3px #02265bf0;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Dispositivos extra pequeños */
 @media only screen and (max-width: 600px) {
-  nav a{
+  #link_home,#link_info,#link_forma,#link_cont,#link_cv{
     display: none;
     }
+  
+  nav ul li{
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 0px 24px;
+  }
+
   nav ul li i{
-      padding-right: .625rem;
-      font-size: 35px;
+      padding-right: 10px;
+      font-size: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
       }
     
     .contenedor{
@@ -583,8 +588,9 @@ footer ul li i{
     }
 
     #informacion p{
-      font-size: 19px;
+      font-size: 15px;
       text-align: left;
+      line-height: 35px;
     }
 
     .educacion p{
@@ -593,16 +599,54 @@ footer ul li i{
 
     .educacion h4{
       padding-bottom: 10px;
+    }
+
+    .img1{
+      margin-top: 15px;
+      max-width: 100%;
+      width: 300px;
+      height: 300px;
+    }
+
+    h1{
+      font-size: 50px;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+
+    h4{
+      font-size: 20px;
+    }
+
+    section h3{
+      font-size: 25px;
+    }
+
+    #formacion{
+      height: 125vh;
+    }
+
+    .contenedor_redes ul li{
+      font-size: 20px;
+    }
+    p,span{
+      font-size: 12px;
     }
 }
 
 /* Dispositivos pequeños */
 @media only screen and (min-width: 600px) {
-  nav a{
+  #link_home,#link_info,#link_forma,#link_cont,#link_cv{
     display: none;
     }
+  nav{
+    padding-bottom: 12px;
+    padding-top: 12px
+  }
   nav ul li i{
-      padding-right: .625rem;
+      padding-right: 10px;
       font-size: 35px;
       }
     
@@ -622,11 +666,37 @@ footer ul li i{
     .educacion h4{
       padding-bottom: 10px;
     }
+  
+    .img1{
+      margin-top: 15px;
+      max-width: 100%;
+      width: 350px;
+      height: 350px;
+    }
+    #formacion{
+      height: 120vh;
+    }
+
+    h4{
+      font-size: 25px;
+    }
+
+    section h3{
+      font-size: 30px;
+    }
+
+    p,span{
+      font-size: 18px;
+    }
+
+    .contenedor_redes ul li{
+      font-size: 25px;
+    }
 }
 
 /* dispositivos medianos  */
 @media only screen and (min-width: 768px) {
-  nav a{
+  #link_home,#link_info,#link_forma,#link_cont,#link_cv{
     display: flex;
     font-size: 19px;
     padding-left: 2px;
@@ -634,7 +704,7 @@ footer ul li i{
     }
 
     nav ul li i{
-      padding-right: .625rem;
+      padding-right: 10px;
       font-size: 25px;
       }
     
@@ -673,14 +743,25 @@ footer ul li i{
     nav ul li{
       margin-left: 6px;
       margin-right: 6px;
-      padding: 8px 1px;
-    
+      padding: 8px 3px;
       }  
+
+      h4{
+        font-size: 25px;
+      }
+  
+      section h3{
+        font-size: 32px;
+      }
+  
+      p,span{
+        font-size: 18px;
+      }
 }
 
 /* Dispositivo grandes  */
 @media only screen and (min-width: 1200px) {
-  nav a{
+  #link_home,#link_info,#link_forma,#link_cont,#link_cv{
     display: flex;
     font-size: 21px;
     padding-left: 2px;
@@ -694,11 +775,18 @@ footer ul li i{
       }  
 
     nav ul li i{
-        padding-right: .625rem;
+        padding-right: 10px;
         font-size: 25px;
         }  
     nav{
       padding-bottom: 18px;
       padding-top: 20px;
+    }
+
+    .img1{
+      margin-top: 15px;
+      max-width: 100%;
+      width: 500px;
+      height: 450px;
     }
 }
